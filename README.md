@@ -14,3 +14,5 @@ As specified in the description of the project as outlined by Anderw Beaty (Lect
 4. Performs any other analysis you think is appropriate.
 
 For this assignment I have four parts, README file, .gitignore, analysis.py and a jupiter notebook called iris.ipnb
+
+![Iris]![alt text](image.png)
