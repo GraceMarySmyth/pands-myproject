@@ -18,11 +18,20 @@ df = sns.load_dataset('iris')
 # Display the first 5 rows of the data set
 print(df.head())
 
+# Shows info on each of the columns, such as the number of non-null values and the data type
+print(df.info())
+
 # Display the last 5 rows of the data set
 print(df.tail())
 
 # Display the number of rows and columns in the data set
 print(df.shape)
+
+# Display the data types of each variable
+print(df.dtypes)
+
+# Display the summary statistics of the data set
+print(df.describe())
 '''
 # Output summary of each variable to a text file
 with open('iris_summary.txt', 'w') as file:
