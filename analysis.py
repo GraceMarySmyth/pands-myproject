@@ -25,3 +25,9 @@ print(df.shape)
 # Output summary of each variable to a text file
 with open('iris_summary.txt', 'w') as file:
     file.write(str(df.describe()))
+
+# histogram of each variable and saved to png file
+plt.figure()
+df.hist()
+plt.savefig('histogram.png')
+
