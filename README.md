@@ -21,3 +21,4 @@ For this assignment I have four parts, README file, .gitignore, analysis.py and 
 References For code
 https://www.kdnuggets.com/2020/08/5-different-ways-load-data-python.html
 https://campus.datacamp.com/courses/data-manipulation-with-pandas/transforming-dataframes?ex=2
+https://www.geeksforgeeks.org/writing-to-file-in-python/
