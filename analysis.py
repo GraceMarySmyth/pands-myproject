@@ -3,7 +3,7 @@
 # Lecturer: Andrew Beatty
 # Author: Grace Mary Smyth
 
-# References  for this code is in bothe the README.md and the accompanying Jupyter Notebook.
+# References  for this code is in both the README.md and the accompanying Jupyter Notebook.
 
 # Importing the necessary libraries
 import pandas as pd
