@@ -19,4 +19,5 @@ print(df.head())
 # Display the last 5 rows of the data set
 print(df.tail())
 
-
+# Display the number of rows and columns in the data set
+print(df.shape)
