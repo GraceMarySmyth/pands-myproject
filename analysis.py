@@ -3,6 +3,8 @@
 # Lecturer: Andrew Beatty
 # Author: Grace Mary Smyth
 
+# References  for this code is in bothe the README.md and the accompanying Jupyter Notebook.
+
 # Importing the necessary libraries
 import pandas as pd
 import numpy as np
