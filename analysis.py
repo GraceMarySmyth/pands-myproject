@@ -12,7 +12,7 @@ import sys
 
 # Load the data set
 df = sns.load_dataset('iris')
-
+'''
 # Display the first 5 rows of the data set
 print(df.head())
 
@@ -21,3 +21,7 @@ print(df.tail())
 
 # Display the number of rows and columns in the data set
 print(df.shape)
+'''
+# Output summary of each variable to a text file
+with open('iris_summary.txt', 'w') as file:
+    file.write(str(df.describe()))
