@@ -45,3 +45,8 @@ plt.savefig('histogram.png')
 # Outputs a scatter plot of each pair of variables
 sns.pairplot(df, hue='species')
 plt.savefig('scatterplot.png')
+
+# plot a scatter plot of sepal_length vs sepal_width
+plt.figure()
+sns.scatterplot(data=df, x='sepal_length', y='sepal_width', hue='species')
+plt.savefig('sepal_length_vs_sepal_width.png')
