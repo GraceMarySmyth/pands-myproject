@@ -16,3 +16,7 @@ df = sns.load_dataset('iris')
 # Display the first 5 rows of the data set
 print(df.head())
 
+# Display the last 5 rows of the data set
+print(df.tail())
+
+
