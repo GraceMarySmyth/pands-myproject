@@ -42,3 +42,6 @@ plt.figure()
 df.hist()
 plt.savefig('histogram.png')
 
+# Outputs a scatter plot of each pair of variables
+sns.pairplot(df, hue='species')
+plt.savefig('scatterplot.png')
