@@ -9,3 +9,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sys
+
+# Load the data set
+df = sns.load_dataset('iris')
+
+# Display the first 5 rows of the data set
+print(df.head())
+
