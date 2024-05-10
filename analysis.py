@@ -55,3 +55,9 @@ plt.savefig('sepal_length_vs_sepal_width.png')
 plt.figure()
 sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='species')
 plt.savefig('petal_length_vs_petal_width.png')
+
+# plot heatmap of the correlation between the numeric columns
+df_numeric = df.select_dtypes(include=[np.number])   # select only the numeric columns
+df_corr = df_numeric.corr(method='pearson')   # calculating the correlation between the numeric columns
+sns.heatmap(df_corr, annot=True)   # visualizing the correlation between the numeric columns
+plt.savefig('correlation.png')

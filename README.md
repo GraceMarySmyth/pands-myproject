@@ -17,6 +17,14 @@ For this assignment I have four parts, README file, .gitignore, analysis.py and 
 
 ![Iris]![alt text](image.png)
 
+In both the analysis.py and the Jupiter notebook the following graphs are represented:
+ - Output summary of each variable to a text file (histogram.png)
+ - Scatter plot of each pair of variables (scatterplot.png)
+ - Scatter plot of sepal_length vs sepal_width (sepal_length_vs_sepal_width.png)
+ - Scatter plot of petal_length vs petal_width (petal_length_vs_petal_width.png)
+ - Heatmap of the correlation between the numeric columns (correlation.png)
+
+
 
 References For code
 https://www.kdnuggets.com/2020/08/5-different-ways-load-data-python.html
@@ -28,6 +36,8 @@ https://www.geeksforgeeks.org/matplotlib-tutorial/
 https://www.geeksforgeeks.org/python-seaborn-tutorial/
 
 https://www.geeksforgeeks.org/writing-to-file-in-python/
+
+https://www.geeksforgeeks.org/pearson-correlation-coefficient
 
 https://realpython.com/visualizing-python-plt-scatter/#:~:text=Getting%20Started%20With%20plt.,-scatter()&text=Finally%2C%20you%20create%20the%20scatter,show()%20.
 
