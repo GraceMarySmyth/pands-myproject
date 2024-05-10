@@ -20,6 +20,11 @@ For this assignment I have four parts, README file, .gitignore, analysis.py and 
 
 References For code
 https://www.kdnuggets.com/2020/08/5-different-ways-load-data-python.html
+
 https://campus.datacamp.com/courses/data-manipulation-with-pandas/transforming-dataframes?ex=2
+
 https://www.geeksforgeeks.org/writing-to-file-in-python/
+
 https://realpython.com/visualizing-python-plt-scatter/#:~:text=Getting%20Started%20With%20plt.,-scatter()&text=Finally%2C%20you%20create%20the%20scatter,show()%20.
+
+https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/
