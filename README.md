@@ -25,6 +25,8 @@ https://campus.datacamp.com/courses/data-manipulation-with-pandas/transforming-d
 
 https://www.geeksforgeeks.org/matplotlib-tutorial/
 
+https://www.geeksforgeeks.org/python-seaborn-tutorial/
+
 https://www.geeksforgeeks.org/writing-to-file-in-python/
 
 https://realpython.com/visualizing-python-plt-scatter/#:~:text=Getting%20Started%20With%20plt.,-scatter()&text=Finally%2C%20you%20create%20the%20scatter,show()%20.

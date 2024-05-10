@@ -50,3 +50,8 @@ plt.savefig('scatterplot.png')
 plt.figure()
 sns.scatterplot(data=df, x='sepal_length', y='sepal_width', hue='species')
 plt.savefig('sepal_length_vs_sepal_width.png')
+
+# plot a scatter plot of petal_length vs petal_width
+plt.figure()
+sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='species')
+plt.savefig('petal_length_vs_petal_width.png')
