@@ -61,3 +61,4 @@ df_numeric = df.select_dtypes(include=[np.number])   # select only the numeric c
 df_corr = df_numeric.corr(method='pearson')   # calculating the correlation between the numeric columns
 sns.heatmap(df_corr, annot=True)   # visualizing the correlation between the numeric columns
 plt.savefig('correlation.png')
+
